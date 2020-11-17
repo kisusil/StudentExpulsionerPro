@@ -11,20 +11,20 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        /*
         ExpulsionConfig config = new ExpulsionConfig(
                 Boolean.getBoolean(args[0]),
                 Boolean.getBoolean(args[1]),
                 Boolean.getBoolean(args[2]),
                 Boolean.getBoolean(args[3]),
                 Boolean.getBoolean(args[4]));
-         */
+        /*
         ExpulsionConfig config = new ExpulsionConfig(
                 true,
                 true,
                 true,
                 true,
                 false);
+         */
 
         System.out.println(config);
 
