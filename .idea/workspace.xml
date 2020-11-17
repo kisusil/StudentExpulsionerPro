@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5edf40ba-82ba-4500-a37f-5ddd08a649b4" name="Default Changelist" comment="Added .idea folder to .gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k424lUWWFGdqINPSAnDLl2gOKS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="beer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/education/expulsion" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="StudentExpulsionerPro" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5edf40ba-82ba-4500-a37f-5ddd08a649b4" name="Default Changelist" comment="" />
+      <created>1604945353751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604945353751</updated>
+      <workItem from="1604945355140" duration="1204000" />
+      <workItem from="1604993904820" duration="1000" />
+      <workItem from="1605440764983" duration="8066000" />
+      <workItem from="1605624221805" duration="9846000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added .idea folder to .gitignore">
+      <created>1605635771183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605635771183</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added .idea folder to .gitignore">
+      <created>1605635809730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605635809730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added .idea folder to .gitignore">
+      <created>1605636124772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605636124772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added .idea folder to .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .idea folder to .gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="581" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1605628218492">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="581" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1536.960@0.0.1536.960" timestamp="1605628218492" />
+    <state x="345" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605632211160">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="345" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.960@0.0.1536.960" timestamp="1605632211160" />
+    <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605632674253">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="506" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.960@0.0.1536.960" timestamp="1605632674253" />
+    <state x="595" y="384" key="Github.ShareDialog" timestamp="1605635686550">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="595" y="384" key="Github.ShareDialog/0.0.1536.960@0.0.1536.960" timestamp="1605635686550" />
+    <state x="505" y="192" key="Github.UntrackedFilesDialog" timestamp="1605635695007">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="505" y="192" key="Github.UntrackedFilesDialog/0.0.1536.960@0.0.1536.960" timestamp="1605635695007" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1605636001333">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1605636001333" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1605636001332">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1605636001332" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1605636001332">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1605636001332" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1605636001333">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1605636001333" />
+    <state width="1494" height="328" key="GridCell.Tab.1.bottom" timestamp="1605462115136">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.bottom/0.0.1536.960@0.0.1536.960" timestamp="1605462115136" />
+    <state width="1494" height="328" key="GridCell.Tab.1.center" timestamp="1605462115135">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.center/0.0.1536.960@0.0.1536.960" timestamp="1605462115135" />
+    <state width="1494" height="328" key="GridCell.Tab.1.left" timestamp="1605462115134">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.left/0.0.1536.960@0.0.1536.960" timestamp="1605462115134" />
+    <state width="1494" height="328" key="GridCell.Tab.1.right" timestamp="1605462115136">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="328" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1605462115136" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605636273735">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1605636273735" />
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1605635680843">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="433" y="211" width="670" height="676" key="search.everywhere.popup/0.0.1536.960@0.0.1536.960" timestamp="1605635680843" />
+  </component>
+</project>
