@@ -15,8 +15,8 @@ public class RandomDecorator extends ItmoDecorator {
     @Override
     public void expulsionProcess(Student student) {
         expulsioner.expulsionProcess(student);
-        if(!student.getConclusion().isExpelled() && !student.getConclusion().isFinalDecision()) {
-            student.setConclusion(new Conclusion(new Random().nextBoolean(), "Coin decision", true));
+        if(!student.getConclusion().isExpelled()) {
+            student.setConclusion(new Conclusion(new Random().nextBoolean(), "Coin decision"));
         }
     }
 }

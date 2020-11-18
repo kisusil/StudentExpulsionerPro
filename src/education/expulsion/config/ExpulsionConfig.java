@@ -1,14 +1,11 @@
 package education.expulsion.config;
 
 import beer.Beer;
+import education.data.Faculty;
+import education.expulsion.execution.ExpulsionBuilder;
 
 import java.util.Formatter;
 
-/**
- * Класс-конфигурация. Было принято решение реализовать паттерн Builder, потому что класс имеет
- * Слишком много полей, а также потому что ни одно поле не обязано быть инициализировано вручную.
- * Это легче, чем создавать множество конструкторов для разных наборов параметров.
- */
 public class ExpulsionConfig {
 
     private boolean isFullMoon;
@@ -16,6 +13,7 @@ public class ExpulsionConfig {
     private boolean robotics;
     private boolean ICE;
     private boolean SE;
+    private ExpulsionBuilder builder;
 
 
     public ExpulsionConfig(boolean robotics,
@@ -44,6 +42,15 @@ public class ExpulsionConfig {
     }
     public boolean isSE() {
         return SE;
+    }
+
+    public boolean checkFacultyState(Faculty faculty) {
+        switch (faculty) {
+            case SE: return isSE();
+            case ICE: return isICE();
+            case ROBOTICS: return isRobotics();
+        }
+        return false;
     }
 
     @Override

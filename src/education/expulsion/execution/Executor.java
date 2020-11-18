@@ -1,50 +1,41 @@
 package education.expulsion.execution;
 
-import education.data.Faculty;
 import education.data.Student;
 import education.expulsion.config.ExpulsionConfig;
-import education.expulsion.decorator.decorator.FacultyDisabledDecorator;
-import education.expulsion.decorator.decorator.FullMoonDecorator;
-import education.expulsion.decorator.decorator.RandomDecorator;
 import education.expulsion.decorator.subject.Expulsioner;
+import javafx.util.Builder;
+
 import java.util.List;
 
 public class Executor {
-    private ExpulsionConfig config;
     private List<Student> students;
+    private ExpulsionConfig config;
 
     public Executor(List<Student> students, ExpulsionConfig config) {
-        this.config = config;
         this.students = students;
+        this.config = config;
     }
+
 
     public void execute() {
         for (Student s: students) {
-            Expulsioner expulsioner = s.getFaculty().getExpulsioner();
-            Faculty faculty = s.getFaculty();
-
-            switch (faculty) {
-                case ROBOTICS:
-                    if(!config.isRobotics()) {
-                        expulsioner = new FacultyDisabledDecorator();
-                    }
-                    break;
-                case ICE:
-                    if(!config.isICE()) {
-                        expulsioner = new FacultyDisabledDecorator();
-                    }
-                    if(config.isRandom()) {
-                        expulsioner = new RandomDecorator(expulsioner);
-                    }
-                    break;
-                case SE:
-                    if(!config.isSE()) {
-                        expulsioner = new FacultyDisabledDecorator();
-                    }
-                    if(!config.isRandom() && config.isFullMoon()) {
-                        expulsioner = new FullMoonDecorator(expulsioner);
-                    }
+            ExpulsionBuilder builder = new ExpulsionBuilder();
+            builder.setFacultyDisabled(config.checkFacultyState(s.getFaculty()));
+            if(!s.getConclusion().isExpelled()) {
+                switch (s.getFaculty()) {
+                    case ROBOTICS:
+                        // Здесь у нас по сути ничего не делается, т.к. студенты отчисляются только по факту долга
+                        // DefaultExpulsion включен по умолчанию.
+                        break;
+                    case ICE:
+                        builder.setRandom(config.isRandom() && config.checkFacultyState(s.getFaculty()));
+                        break;
+                    case SE:
+                        builder.setFullMoon(config.isFullMoon() && !config.isRandom());
+                        break;
+                }
             }
+            Expulsioner expulsioner = builder.build();
             expulsioner.expulsionProcess(s);
             System.out.println(s);
         }

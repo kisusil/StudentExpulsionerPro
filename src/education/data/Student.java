@@ -67,8 +67,11 @@ public class Student {
             }
         }
 
-        public boolean isPassed(String subject) {
-            return results.get(subject);
+        public boolean hasFailedExam() {
+            for (Map.Entry<String, Boolean> m: results.entrySet()) {
+                if(!m.getValue()) return true;
+            }
+            return false;
         }
 
         public String failedExams() {

@@ -13,7 +13,7 @@ public class FullMoonDecorator extends ItmoDecorator {
     @Override
     public void expulsionProcess(Student student) {
         expulsioner.expulsionProcess(student);
-        if(!student.getConclusion().isExpelled() && !student.getConclusion().isFinalDecision()) {
+        if(!student.getConclusion().isExpelled()) {
             student.setConclusion(expel("Full moon"));
         }
     }
