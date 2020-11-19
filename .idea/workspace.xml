@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StudentExpulsionerPro:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,23 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5edf40ba-82ba-4500-a37f-5ddd08a649b4" name="Default Changelist" comment="Added .idea folder">
-      <change afterPath="$PROJECT_DIR$/src/education/expulsion/decorator/subject/DefaultExpulsion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/education/expulsion/execution/ExpulsionBuilder.java" afterDir="false" />
+    <list default="true" id="5edf40ba-82ba-4500-a37f-5ddd08a649b4" name="Default Changelist" comment="тыгыдык">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/data/Conclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/data/Conclusion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/data/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/data/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/data/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/education/expulsion/config/ExpulsionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/expulsion/config/ExpulsionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/decorator/FullMoonDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/expulsion/decorator/decorator/FullMoonDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/decorator/ItmoDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/expulsion/decorator/decorator/ItmoDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/decorator/RandomDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/expulsion/decorator/decorator/RandomDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/subject/Expulsioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/expulsion/decorator/subject/Expulsioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/subject/ICE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/subject/Robotics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/decorator/subject/SE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/education/expulsion/execution/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/education/expulsion/execution/Executor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -119,7 +98,8 @@
       <workItem from="1605624221805" duration="10173000" />
       <workItem from="1605708939977" duration="5000" />
       <workItem from="1605708950106" duration="6902000" />
-      <workItem from="1605722358541" duration="3534000" />
+      <workItem from="1605722358541" duration="3960000" />
+      <workItem from="1605801955776" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Added .idea folder to .gitignore">
       <created>1605635771183</created>
@@ -149,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605636451709</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="тыгыдык">
+      <created>1605726769048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605726769048</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added .idea folder to .gitignore" />
     <MESSAGE value="Added .idea folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .idea folder" />
+    <MESSAGE value="тыгыдык" />
+    <option name="LAST_COMMIT_MESSAGE" value="тыгыдык" />
   </component>
   <component name="WindowStateProjectService">
     <state x="256" y="61" key="#Project_Structure" timestamp="1605636608474">
@@ -201,22 +189,22 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="505" y="192" key="Github.UntrackedFilesDialog/0.0.1536.960@0.0.1536.960" timestamp="1605635695007" />
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1605726469485">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1605730163840">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1605726469485" />
-    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1605726469483">
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1605730163840" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1605730163839">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1605726469483" />
-    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1605726469480">
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1605730163839" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1605730163838">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1605726469480" />
-    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1605726469484">
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1605730163838" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1605730163839">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1605726469484" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1605730163839" />
     <state width="1494" height="328" key="GridCell.Tab.1.bottom" timestamp="1605462115136">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -237,10 +225,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="256" y="61" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1605726512523" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605636456361">
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1605726771845">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1605636456361" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1605726771845" />
     <state x="433" y="211" width="670" height="676" key="search.everywhere.popup" timestamp="1605635680843">
       <screen x="0" y="0" width="1536" height="960" />
     </state>

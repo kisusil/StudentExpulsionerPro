@@ -19,8 +19,8 @@ public class ExpulsionConfig {
     public ExpulsionConfig(boolean robotics,
                            boolean ICE,
                            boolean SE,
-                           boolean isFullMoon,
-                           boolean isRandom) {
+                           boolean isRandom,
+                           boolean isFullMoon) {
         this.isFullMoon = isFullMoon;
         this.isRandom = isRandom;
         this.robotics = robotics;
