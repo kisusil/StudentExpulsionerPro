@@ -12,23 +12,22 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        /*
         ExpulsionConfig config = new ExpulsionConfig(
                 Boolean.parseBoolean(args[0]),
                 Boolean.parseBoolean(args[1]),
                 Boolean.parseBoolean(args[2]),
                 Boolean.parseBoolean(args[3]),
                 Boolean.parseBoolean(args[4]));
-        */
 
 
+        /*
         ExpulsionConfig config = new ExpulsionConfig(
                 true,
                 true,
                 true,
                 false,
                 true);
-
+         */
 
         System.out.println(config);
 
