@@ -14,24 +14,18 @@ public class ExpulsionBuilder {
         expulsioner = new DefaultExpulsion();
     }
 
-    public ExpulsionBuilder setFacultyDisabled(boolean facultyEnabled) {
-        if(!facultyEnabled) {
-            expulsioner = new FacultyDisabledDecorator();
-        }
+    public ExpulsionBuilder setFacultyDisabled() {
+        expulsioner = new FacultyDisabledDecorator();
         return this;
     }
 
-    public ExpulsionBuilder setRandom(boolean isRandom) {
-        if(isRandom) {
-            expulsioner = new RandomDecorator(expulsioner);
-        }
+    public ExpulsionBuilder setRandom() {
+        expulsioner = new RandomDecorator(expulsioner);
         return this;
     }
 
-    public ExpulsionBuilder setFullMoon(boolean isFullMoon) {
-        if(isFullMoon) {
-            expulsioner = new FullMoonDecorator(expulsioner);
-        }
+    public ExpulsionBuilder setFullMoon() {
+        expulsioner = new FullMoonDecorator(expulsioner);
         return this;
     }
 

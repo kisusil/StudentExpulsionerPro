@@ -2,7 +2,6 @@ package education.expulsion.config;
 
 import beer.Beer;
 import education.data.Faculty;
-import education.expulsion.execution.ExpulsionBuilder;
 
 import java.util.Formatter;
 
@@ -13,8 +12,6 @@ public class ExpulsionConfig {
     private boolean robotics;
     private boolean ICE;
     private boolean SE;
-    private ExpulsionBuilder builder;
-
 
     public ExpulsionConfig(boolean robotics,
                            boolean ICE,
@@ -34,23 +31,14 @@ public class ExpulsionConfig {
     public boolean isRandom() {
         return isRandom;
     }
-    public boolean isRobotics() {
+    public boolean isRoboticsEnabled() {
         return robotics;
     }
-    public boolean isICE() {
+    public boolean isICEEnabled() {
         return ICE;
     }
-    public boolean isSE() {
+    public boolean isSEEnabled() {
         return SE;
-    }
-
-    public boolean checkFacultyState(Faculty faculty) {
-        switch (faculty) {
-            case SE: return isSE();
-            case ICE: return isICE();
-            case ROBOTICS: return isRobotics();
-        }
-        return false;
     }
 
     @Override
